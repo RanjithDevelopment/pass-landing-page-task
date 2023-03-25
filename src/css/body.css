@@ -1,0 +1,44 @@
+.box{
+    margin: 5%;
+   border: none;
+ 
+}
+.box:hover{
+    transform: scale(1.1);
+   
+}
+
+.container-body{
+   
+    background-color: black;
+    height: 70vh;
+    width: auto;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.triangle{
+   
+    height: 50vh;
+    width: auto;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    border :none;
+    display: flex;
+    justify-content: center;
+}
+.row{
+
+}
+ .content{
+margin: 15%;
+
+}
+.paragraph{
+    color: rgb(202, 192, 192);
+    font-size: 20px;
+    text-align: start;
+   
+}
