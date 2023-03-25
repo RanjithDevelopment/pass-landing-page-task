@@ -175,7 +175,7 @@ setformdata(formvalues);
           <br />
           Already have an account?
           <div className="alt-login">
- <div className="signup"><Link to="/" style={{color:"white"}}>Sign IN</Link></div>
+ <div className="signup"><Link to="/Login" style={{color:"white"}}>Sign IN</Link></div>
         </div>
 
         </Box>
