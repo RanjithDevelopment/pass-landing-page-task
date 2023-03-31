@@ -6,7 +6,7 @@ module.exports.getUserData= async (req,res,next)=>{
     try{
        
         const apiresponse= await userModel.find({});
-        console.log(apiresponse);
+       
        
     return  res.status(200).send(apiresponse);
 next();
@@ -19,11 +19,11 @@ next();
 module.exports.deleteuserdata = async (req,res,next)=>{
    
     try {
-        
-       const deletedata = await userModel.deleteOne({ _id: ObjectId(req.body.id) });
+      
+       const deletedata = await userModel.deleteOne({ _id: new ObjectId(req.params.id) });
        res.send(deletedata)
    } catch (err) {
-       console.error(err);
+       console.error("deletion error",err);
        res.status(500).send(err)
    }
 }

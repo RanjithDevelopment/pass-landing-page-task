@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/register',register);
-//app.use('/',Auth.AuthenticateUser);
+app.use('/',Auth.AuthenticateUser);
 app.use('/api/users',userRouter);
 
 app.listen(process.env.PORT,()=>{console.log("app is Listening ");});

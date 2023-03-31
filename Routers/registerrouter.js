@@ -1,5 +1,5 @@
 const express = require('express');
-const register=require('../modules/registerModule');
+const register=require('../Modules/registerModule');
 
 const router=express.Router();
 router.post('/signup',register.signup);

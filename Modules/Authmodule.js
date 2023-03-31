@@ -22,8 +22,9 @@ catch(err){
 //Admin Authorization
 module.exports.authorizeAdmin=(req,res,next)=>{
     try{
-        if(req.body.currentUser.role==='admin' ){
-        console.log(req.body.currentUser.role);
+
+        if(req.body.currentUser.existUser.role==='admin' ){
+     
         next();}
         else return res.status(404).send({msg:"you dont have permission to access this api"});
     
