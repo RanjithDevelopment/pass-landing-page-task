@@ -54,7 +54,7 @@ const history= useNavigate();
     event.preventDefault();
     
 //add the user to the database
-await axios.post("https://pass-on-landing-page.onrender.com/api/register/signup",{
+await axios.post("https://pass-backend-org.onrender.com/api/register/signup",{
   
 firstname:formdata.firstname,
 lastname:formdata.lastname,
@@ -175,7 +175,7 @@ setformdata(formvalues);
           <br />
           Already have an account?
           <div className="alt-login">
- <div className="signup"><Link to="/Login" style={{color:"white"}}>Sign IN</Link></div>
+ <div className="signup"><Link to="/" style={{color:"white"}}>Sign IN</Link></div>
         </div>
 
         </Box>

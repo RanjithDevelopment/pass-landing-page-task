@@ -38,7 +38,7 @@ const AddAdmin = () => {
   //Login Submission 
   const handlesumit =async () => {
     console.log(formdata)
- const response = await axios.post("https://pass-on-landing-page.onrender.com/api/register/signup",{
+ const response = await axios.post("https://pass-backend-org.onrender.com/api/register/signup",{
   
 firstname:formdata.firstname,
 

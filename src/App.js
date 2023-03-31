@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import Adminpannel from "./routes/Adminpannel";
 import AddAdmin from "./components/addAdmin";
 import Signup from "./components/Signup";
+import Viewuser from "./components/viewuser";
 function App() {
   return (
     <div  >
@@ -17,6 +18,7 @@ function App() {
         <Route path="/signUp" element={<Signup/>}/>
         <Route path="/adminpannel" element={<Adminpannel/>}/>
         <Route path="/addAdmin" element={<AddAdmin/>}/>
+        <Route path="/viewusers" element={<Viewuser/>}/>
       </Routes>
      </div>
   );

@@ -14,7 +14,7 @@ const contact = () => {
             <div className="footer-container">
                 <div className="left">
                     <div className="location">
-                        <FaHome size={40} style={{ color: "#fff", marginRight: "2rem" }} />
+                        <FaHome size={50} style={{ color: "rgba(248, 32, 79, 0.841)", marginRight: "2rem" }} />
                        <div>
                             <p>123/A ,</p>
                            
@@ -25,35 +25,35 @@ const contact = () => {
                     </div>
                     <div className="phone">
                         <h4>
-                            <FaPhone size={40} style={{ color: "#fff", marginRight: "2rem" }} />
+                            <FaPhone size={50} style={{ color: "rgba(248, 32, 79, 0.841)", marginRight: "2rem" }} />
                             +91 1234567890
                         </h4>
 
                     </div>
                     <div className="email">
                         <h4>
-                            <FaMailBulk size={40} style={{ color: "#fff", marginRight: "2rem" }} />
+                            <FaMailBulk size={50} style={{ color: "rgba(248, 32, 79, 0.841)", marginRight: "2rem" }} />
                            example@gmail.com
                         </h4>
 
                     </div>
                     <div className="facebook">
                         <h4>
-                            <FaFacebook size={40} style={{ color: "#fff", marginRight: "2rem" }} />
+                            <FaFacebook size={50} style={{ color: "rgba(248, 32, 79, 0.841)", marginRight: "2rem" }} />
                            <a href='#' className='socialLinks' >FaFacebook</a>
                         </h4>
 
                     </div>
                     <div className="insta">
                         <h4>
-                            <FaInstagram size={40} style={{ color: "#fff", marginRight: "2rem" }} />
+                            <FaInstagram size={50} style={{ color: "rgba(248, 32, 79, 0.841)", marginRight: "2rem" }} />
                            <a href='#' className='socialLinks' >FaInstagram</a>
                         </h4>
 
                     </div>
                     <div className="linkedin">
                         <h4>
-                        <FaLinkedin size={40} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <FaLinkedin size={50} style={{ color: "rgba(248, 32, 79, 0.841)", marginRight: "1rem" }} />
                            <a href='#' className='socialLinks' >FaLinkedin</a>
                         </h4>
 
@@ -63,7 +63,7 @@ const contact = () => {
                 <div className="right">
                   <h4>About Me</h4>
                   <p>
-                  This is me Ranjith, who is looking for career in Full Stack Development to Implement my Practical Knowldege and to Enlarge,Explore  My learnings To Next Level
+                  hello ,We Are pass On Delivery Application ,we Make Sending, Buying and Travelling Easier By providing world Class to Our Clients Across the Globe
                   </p>
                   <div className="social">
                    

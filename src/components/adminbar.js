@@ -26,7 +26,7 @@ const AdminBar = () => {
                 <Link to='/addAdmin' style={{color:"white"}}>ADD ADMIN</Link>
             </li>
             <li>
-                <Link to='/' style={{color:"white"}}>view User Record</Link>
+                <Link to='/viewusers' style={{color:"white"}}>view User Record</Link>
             </li>
             <li>
                 <Link to='/' style={{color:"white"}}>landing page</Link>

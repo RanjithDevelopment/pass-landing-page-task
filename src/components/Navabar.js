@@ -28,9 +28,11 @@ const Navabar = () => {
         <li className="nav-item">
          <Link to="/contact">Contact </Link> 
         </li>
-       <li className="nav-item">
+       {
+       token? <li className="nav-item">
          <Link to="/Login">Login </Link> 
-        </li>
+        </li>:<></>
+        }
         
         <li className="nav-item">
          <Link to="/signUp">signUp </Link> 
